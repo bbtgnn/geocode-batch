@@ -38,7 +38,7 @@ export function buildReqQuery(lines: Array<string>): string {
  */
 
 export function buildReqUrl(key: string, query: string): string {
-	return `http://www.mapquestapi.com/geocoding/v1/batch?key=${key}${query}`;
+	return `https://www.mapquestapi.com/geocoding/v1/batch?key=${key}${query}`;
 }
 
 /**
