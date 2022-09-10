@@ -24,7 +24,7 @@ const config = {
 		}),
 
 		paths: {
-			base: prod ? '/mapquest-fetch' : ''
+			base: prod ? '/geocode-batch' : ''
 		},
 
 		prerender: {
